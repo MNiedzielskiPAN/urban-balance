@@ -1,0 +1,24 @@
+category;path;description
+paper;manuscript/jhb_comparison.tex;Current LaTeX manuscript
+paper;manuscript/jhb_comparison_epb.tex;Environment and Planning B submission version
+paper;manuscript/bibliography.bib;Bibliography
+paper;manuscript/figures/;Figures compiled by the manuscript
+paper;manuscript/generated_tables/fractional_975118_8am/;Eight generated table fragments compiled by the manuscript
+code;code/python/run_fractional_975118_8am_analysis.py;Main analysis entry point
+code;code/python/run_robustness.py;Shared statistical and spatial-analysis functions
+code;code/python/prepare_fractional_975118_revision.py;Manuscript-table generator
+code;code/python/validate_fractional_975118_8am_analysis.py;Analysis-output validator
+code;code/python/validate_fractional_975118_manuscript_tables.py;Eight-table reconstruction validator
+environment;code/python/requirements.txt;Exact Python dependency versions
+environment;code/python/PYTHON_VERSION.txt;Tested Python version
+input;data/input/macierze_obs_flow/Macierze_modes_8am.csv;Full-period fractional OD commuting matrix
+input;data/input/waw_zoneID_translation.csv;Legacy-to-895-zone identifier translation
+input;data/input/gis/;Spatial centroid shapefile and required components
+input;data/TomTom_S60_0511_v4_adjTT_newzoneID.dta;Car travel-time matrix containing the study's 8am column
+input;data/Waw_GTFS_H5_0511_v2_newzoneID.dta;Public transport travel-time matrix containing the 8am column
+output;output/fractional_975118_8am/machine_readable/;Model results, diagnostics, accounting, folds, and metadata
+output;output/fractional_975118_8am/tables/;Publication and supplementary LaTeX tables
+output;output/fractional_975118_8am/cache/;Reconstructed MRC allocations
+documentation;README.md;Repository structure and reproduction instructions
+documentation;VERIFICATION.md;Final clean-run record
+integrity;FILE_HASHES.csv;File-level sizes and SHA-256 hashes
