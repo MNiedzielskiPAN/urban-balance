@@ -1,0 +1,3 @@
+mode;objective_commuter_minutes;assigned_commuters;max_worker_margin_error;max_job_margin_error;origin_quantity;destination_quantity
+car;15143737.8548;975118;0;0;mean assigned time by origin under the metropolitan minimum-cost assignment;mean assigned time by destination under the metropolitan minimum-cost assignment
+pt;18953431.953;975118;0;0;mean assigned time by origin under the metropolitan minimum-cost assignment;mean assigned time by destination under the metropolitan minimum-cost assignment

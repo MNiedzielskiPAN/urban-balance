@@ -1,0 +1,5 @@
+mode;outcome;represented_commuters;positive_denominator_zones;zero_denominator_zones;minimum_minutes;maximum_minutes
+car;out_commute;975117.844182;805;90;19.0778970289;41.0616848646
+car;in_commute;975117.844182;892;3;19.3824734446;37.2210557422
+pt;out_commute;975117.844182;805;90;25.4624723054;109.82332366
+pt;in_commute;975117.844182;892;3;32.9900158078;92.0764256254

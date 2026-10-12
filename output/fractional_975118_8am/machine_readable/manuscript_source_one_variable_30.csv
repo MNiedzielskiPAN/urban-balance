@@ -1,0 +1,13 @@
+mode;threshold_minutes;outcome;variable;N;beta_origin;se_origin;beta_destination;se_destination;adj_r2;inference;beta;standard_error
+car;30;pairwise;access_jobs;801025;-0.156200198793;0.0028379863136;-0.151570082416;0.00289824674473;0.563585174427;two-way origin/destination clustered;;
+car;30;pairwise;access_workers;801025;-0.188566960038;0.00418855369552;-0.184386033432;0.00429570225572;0.57122246467;two-way origin/destination clustered;;
+car;30;out_commute;access_jobs;805;;;;;0.402202553206;Conley spatial HAC (10 km Bartlett kernel);-0.083943975728;0.0181145063539
+car;30;out_commute;access_workers;805;;;;;0.40471155868;Conley spatial HAC (10 km Bartlett kernel);-0.101377972189;0.0223213248041
+car;30;in_commute;access_jobs;892;;;;;0.00376514603099;Conley spatial HAC (10 km Bartlett kernel);0.00702778638041;0.0178854756342
+car;30;in_commute;access_workers;892;;;;;0.000587628106035;Conley spatial HAC (10 km Bartlett kernel);0.00500813630463;0.0215959146683
+pt;30;pairwise;access_jobs;790321;-0.144152947089;0.00347700136763;-0.145329011625;0.00328153638866;0.584303791008;two-way origin/destination clustered;;
+pt;30;pairwise;access_workers;790321;-0.157652934229;0.0052251930806;-0.16303492805;0.00466983829053;0.540202902145;two-way origin/destination clustered;;
+pt;30;out_commute;access_jobs;799;;;;;0.863827669959;Conley spatial HAC (10 km Bartlett kernel);-0.133759871285;0.00971437024688
+pt;30;out_commute;access_workers;799;;;;;0.76703096862;Conley spatial HAC (10 km Bartlett kernel);-0.145158658536;0.014186878144
+pt;30;in_commute;access_jobs;886;;;;;0.610094492161;Conley spatial HAC (10 km Bartlett kernel);-0.0769384497804;0.00733818581898
+pt;30;in_commute;access_workers;886;;;;;0.675416386077;Conley spatial HAC (10 km Bartlett kernel);-0.0944005069023;0.00795974818562

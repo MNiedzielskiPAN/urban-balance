@@ -1,0 +1,7 @@
+mode;threshold_minutes;outcome;sample_variant;N;covariance_used;restriction;wald_chi2;df;p_value;restriction_rejected_5pct
+car;30;pairwise;threshold_common;640000;two-way origin/destination clustered;jobs coefficient + workers coefficient = 0 at each represented endpoint;1058.19292049;2;1.64561001211e-230;True
+car;30;out_commute;threshold_common;800;Conley spatial HAC (10 km Bartlett kernel);jobs coefficient + workers coefficient = 0 at each represented endpoint;8.2886701014;1;0.00398931940857;True
+car;30;in_commute;threshold_common;800;Conley spatial HAC (10 km Bartlett kernel);jobs coefficient + workers coefficient = 0 at each represented endpoint;0.435343213839;1;0.509378694223;False
+pt;30;pairwise;threshold_common;630436;two-way origin/destination clustered;jobs coefficient + workers coefficient = 0 at each represented endpoint;2255.70879611;2;0;True
+pt;30;out_commute;threshold_common;794;Conley spatial HAC (10 km Bartlett kernel);jobs coefficient + workers coefficient = 0 at each represented endpoint;155.38366733;1;1.15438679448e-35;True
+pt;30;in_commute;threshold_common;794;Conley spatial HAC (10 km Bartlett kernel);jobs coefficient + workers coefficient = 0 at each represented endpoint;160.252222199;1;9.96646366101e-37;True

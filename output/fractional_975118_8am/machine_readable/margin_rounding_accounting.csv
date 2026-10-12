@@ -1,0 +1,2 @@
+source_column;source_interpretation;removed_legacy_zone;mapped_pairs;positive_pairs;raw_mapped_total;method;fractional_total;integer_target;integer_worker_total;integer_job_total;maximum_absolute_worker_rounding_change;maximum_absolute_job_rounding_change;od_cells_modified
+No. 101;full-period fractional commuting OD pattern;797;801025;718060;975117.844182;aggregate fractional OD cells to zonal margins, then deterministic largest-remainder rounding;975117.844182;975118;975118;975118;0.507778;0.514056081;0

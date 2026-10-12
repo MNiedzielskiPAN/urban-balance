@@ -1,0 +1,42 @@
+{
+  "analysis_variant": "original full-period fractional OD weights and aggregate-then-rounded 975118 margins; 8am travel times",
+  "zones": 895,
+  "thresholds_minutes": [
+    20,
+    30,
+    45,
+    60
+  ],
+  "random_seed": 20260826,
+  "travel_time_columns": {
+    "car": "t830 (the study's 8am car matrix)",
+    "pt": "t8"
+  },
+  "diagonal_rule": "replace every diagonal with 0.60 times nearest positive outbound interzonal time",
+  "opportunity_universe": "all 895 zones and full-period totals; never recalculated after sample restriction",
+  "jobs_total": 975118.0,
+  "workers_total": 975118.0,
+  "flow_and_rounding": {
+    "source_column": "No. 101",
+    "source_interpretation": "full-period fractional commuting OD pattern",
+    "removed_legacy_zone": 797,
+    "mapped_pairs": 801025,
+    "positive_pairs": 718060,
+    "raw_mapped_total": 975117.8441822712,
+    "method": "aggregate fractional OD cells to zonal margins, then deterministic largest-remainder rounding",
+    "fractional_total": 975117.8441822712,
+    "integer_target": 975118,
+    "integer_worker_total": 975118,
+    "integer_job_total": 975118,
+    "maximum_absolute_worker_rounding_change": 0.5077780000000303,
+    "maximum_absolute_job_rounding_change": 0.5140560810000494,
+    "od_cells_modified": 0
+  },
+  "2sfca_destination": "reverses aggregation direction and exchanges jobs/workers; ratios with zero competition are zero; completed sums are logged",
+  "public_transport_threshold_sample": "additional all-threshold intersection reported with predictors always calculated on all 895 zones",
+  "rmse_mae_scale": "natural-log dependent-variable units",
+  "cv_blocks": "five deterministic k-means clusters of projected population-weighted zone centroids",
+  "pairwise_cv_scope": "test only within-held-out-block connections; train only pairs with both endpoints outside block; cross-block pairs unused",
+  "oos_r2": "both training-mean and held-out-mean fold benchmarks are exported from identical predictions",
+  "csv_dialect": "semicolon separator; decimal point"
+}

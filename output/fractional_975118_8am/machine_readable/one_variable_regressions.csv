@@ -1,0 +1,49 @@
+mode;threshold_minutes;outcome;variable;N;beta_origin;se_origin;beta_destination;se_destination;adj_r2;inference;beta;standard_error
+car;20;pairwise;access_jobs;801025;-0.104821884833;0.00284021271382;-0.0980766461112;0.00268970895931;0.481940181827;two-way origin/destination clustered;;
+car;20;pairwise;access_workers;801025;-0.117858806387;0.00436638484353;-0.111589139524;0.00414070873135;0.407377895411;two-way origin/destination clustered;;
+car;20;out_commute;access_jobs;805;;;;;0.684063340855;Conley spatial HAC (10 km Bartlett kernel);-0.082341904639;0.00739544946557
+car;20;out_commute;access_workers;805;;;;;0.534015741885;Conley spatial HAC (10 km Bartlett kernel);-0.0892619627943;0.011974279575
+car;20;in_commute;access_jobs;892;;;;;0.0676826948189;Conley spatial HAC (10 km Bartlett kernel);-0.0183508790165;0.00911243020618
+car;20;in_commute;access_workers;892;;;;;0.108985644632;Conley spatial HAC (10 km Bartlett kernel);-0.0287736181611;0.0104493775734
+car;30;pairwise;access_jobs;801025;-0.156200198793;0.0028379863136;-0.151570082416;0.00289824674473;0.563585174427;two-way origin/destination clustered;;
+car;30;pairwise;access_workers;801025;-0.188566960038;0.00418855369552;-0.184386033432;0.00429570225572;0.57122246467;two-way origin/destination clustered;;
+car;30;out_commute;access_jobs;805;;;;;0.402202553206;Conley spatial HAC (10 km Bartlett kernel);-0.083943975728;0.0181145063539
+car;30;out_commute;access_workers;805;;;;;0.40471155868;Conley spatial HAC (10 km Bartlett kernel);-0.101377972189;0.0223213248041
+car;30;in_commute;access_jobs;892;;;;;0.00376514603099;Conley spatial HAC (10 km Bartlett kernel);0.00702778638041;0.0178854756342
+car;30;in_commute;access_workers;892;;;;;0.000587628106035;Conley spatial HAC (10 km Bartlett kernel);0.00500813630463;0.0215959146683
+car;45;pairwise;access_jobs;801025;-0.339456018635;0.0204628832839;-0.404118833764;0.0324642918007;0.319583873189;two-way origin/destination clustered;;
+car;45;pairwise;access_workers;801025;-0.408625689198;0.025525665891;-0.471945181933;0.036657243697;0.39239500559;two-way origin/destination clustered;;
+car;45;out_commute;access_jobs;805;;;;;0.0737771128734;Conley spatial HAC (10 km Bartlett kernel);-0.102225139894;0.0404000372196
+car;45;out_commute;access_workers;805;;;;;0.121798078275;Conley spatial HAC (10 km Bartlett kernel);-0.143346463423;0.0529893082284
+car;45;in_commute;access_jobs;892;;;;;0.0943519907003;Conley spatial HAC (10 km Bartlett kernel);0.109871877752;0.0285314867252
+car;45;in_commute;access_workers;892;;;;;0.0607057015144;Conley spatial HAC (10 km Bartlett kernel);0.0926288593051;0.0391709487645
+car;60;pairwise;access_jobs;801025;-3.1393577724;0.454328884369;-4.82188234188;0.597931626286;0.329525032641;two-way origin/destination clustered;;
+car;60;pairwise;access_workers;801025;-2.20437661033;0.285537897866;-3.11788664412;0.41797927306;0.329654993264;two-way origin/destination clustered;;
+car;60;out_commute;access_jobs;805;;;;;0.0597063915414;Conley spatial HAC (10 km Bartlett kernel);-0.902632879574;0.357827759877
+car;60;out_commute;access_workers;805;;;;;0.0562738111644;Conley spatial HAC (10 km Bartlett kernel);-0.60837384477;0.268429751885
+car;60;in_commute;access_jobs;892;;;;;0.0706908341477;Conley spatial HAC (10 km Bartlett kernel);1.03810078366;0.418543846471
+car;60;in_commute;access_workers;892;;;;;0.068556782185;Conley spatial HAC (10 km Bartlett kernel);0.668139535129;0.254608993557
+pt;20;pairwise;access_jobs;743906;-0.125947852138;0.00472340625119;-0.128488447804;0.00430110176215;0.473643818692;two-way origin/destination clustered;;
+pt;20;pairwise;access_workers;732736;-0.11434627906;0.00601630417488;-0.113723501669;0.00621799778046;0.352299511485;two-way origin/destination clustered;;
+pt;20;out_commute;access_jobs;774;;;;;0.877094180984;Conley spatial HAC (10 km Bartlett kernel);-0.137413149204;0.00687869725098
+pt;20;out_commute;access_workers;775;;;;;0.624475793723;Conley spatial HAC (10 km Bartlett kernel);-0.117513024278;0.0137783486616
+pt;20;in_commute;access_jobs;862;;;;;0.657217260569;Conley spatial HAC (10 km Bartlett kernel);-0.0787472370605;0.00461215316484
+pt;20;in_commute;access_workers;854;;;;;0.692297665316;Conley spatial HAC (10 km Bartlett kernel);-0.0832712252545;0.00469219276867
+pt;30;pairwise;access_jobs;790321;-0.144152947089;0.00347700136763;-0.145329011625;0.00328153638866;0.584303791008;two-way origin/destination clustered;;
+pt;30;pairwise;access_workers;790321;-0.157652934229;0.0052251930806;-0.16303492805;0.00466983829053;0.540202902145;two-way origin/destination clustered;;
+pt;30;out_commute;access_jobs;799;;;;;0.863827669959;Conley spatial HAC (10 km Bartlett kernel);-0.133759871285;0.00971437024688
+pt;30;out_commute;access_workers;799;;;;;0.76703096862;Conley spatial HAC (10 km Bartlett kernel);-0.145158658536;0.014186878144
+pt;30;in_commute;access_jobs;886;;;;;0.610094492161;Conley spatial HAC (10 km Bartlett kernel);-0.0769384497804;0.00733818581898
+pt;30;in_commute;access_workers;886;;;;;0.675416386077;Conley spatial HAC (10 km Bartlett kernel);-0.0944005069023;0.00795974818562
+pt;45;pairwise;access_jobs;797449;-0.166661206295;0.00408608368487;-0.168454240935;0.00396072194921;0.580481020266;two-way origin/destination clustered;;
+pt;45;pairwise;access_workers;797449;-0.192947194284;0.00621877902039;-0.1957573162;0.0062018502924;0.590255670157;two-way origin/destination clustered;;
+pt;45;out_commute;access_jobs;803;;;;;0.662497025577;Conley spatial HAC (10 km Bartlett kernel);-0.13401461252;0.0177489297635
+pt;45;out_commute;access_workers;803;;;;;0.671805074629;Conley spatial HAC (10 km Bartlett kernel);-0.155053021332;0.0201269714227
+pt;45;in_commute;access_jobs;890;;;;;0.423615843006;Conley spatial HAC (10 km Bartlett kernel);-0.0746893274199;0.013568283489
+pt;45;in_commute;access_workers;890;;;;;0.471578419214;Conley spatial HAC (10 km Bartlett kernel);-0.0909800339572;0.0151695890996
+pt;60;pairwise;access_jobs;801025;-0.214060117589;0.00656325083824;-0.213656517895;0.00672134153057;0.501637966002;two-way origin/destination clustered;;
+pt;60;pairwise;access_workers;801025;-0.246283125283;0.00820629787562;-0.24473927517;0.00835095050336;0.537612122351;two-way origin/destination clustered;;
+pt;60;out_commute;access_jobs;805;;;;;0.452219903174;Conley spatial HAC (10 km Bartlett kernel);-0.152119626156;0.0261958597228
+pt;60;out_commute;access_workers;805;;;;;0.500412272705;Conley spatial HAC (10 km Bartlett kernel);-0.177760011007;0.0306749411657
+pt;60;in_commute;access_jobs;892;;;;;0.256949127003;Conley spatial HAC (10 km Bartlett kernel);-0.0790856854385;0.019321687311
+pt;60;in_commute;access_workers;892;;;;;0.307216734964;Conley spatial HAC (10 km Bartlett kernel);-0.095751156527;0.0222681013692
