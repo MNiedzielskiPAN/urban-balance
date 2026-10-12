@@ -1,0 +1,48 @@
+\begin{table}[htbp]
+\centering
+\scriptsize
+\caption{Tests of the equal-and-opposite accessibility-ratio restriction}
+\label{tab:ratio-test}
+\begin{tabular}{lllllllllll}
+\toprule
+mode & threshold\_minutes & outcome & sample\_variant & N & covariance\_used & restriction & wald\_chi2 & df & p\_value & restriction\_rejected\_5pct \\
+\midrule
+car & 20 & pairwise & threshold\_common & 640000 & two-way origin/destination clustered & jobs coefficient + workers coefficient = 0 at each represented endpoint & 2206.7714 & 2 & 0.0000 & True \\
+car & 20 & out\_commute & threshold\_common & 800 & Conley spatial HAC (10 km Bartlett kernel) & jobs coefficient + workers coefficient = 0 at each represented endpoint & 73.9004 & 1 & 0.0000 & True \\
+car & 20 & in\_commute & threshold\_common & 800 & Conley spatial HAC (10 km Bartlett kernel) & jobs coefficient + workers coefficient = 0 at each represented endpoint & 8.3443 & 1 & 0.0039 & True \\
+car & 30 & pairwise & threshold\_common & 640000 & two-way origin/destination clustered & jobs coefficient + workers coefficient = 0 at each represented endpoint & 1058.1929 & 2 & 0.0000 & True \\
+car & 30 & out\_commute & threshold\_common & 800 & Conley spatial HAC (10 km Bartlett kernel) & jobs coefficient + workers coefficient = 0 at each represented endpoint & 8.2887 & 1 & 0.0040 & True \\
+car & 30 & in\_commute & threshold\_common & 800 & Conley spatial HAC (10 km Bartlett kernel) & jobs coefficient + workers coefficient = 0 at each represented endpoint & 0.4353 & 1 & 0.5094 & False \\
+car & 45 & pairwise & threshold\_common & 640000 & two-way origin/destination clustered & jobs coefficient + workers coefficient = 0 at each represented endpoint & 487.2557 & 2 & 0.0000 & True \\
+car & 45 & out\_commute & threshold\_common & 800 & Conley spatial HAC (10 km Bartlett kernel) & jobs coefficient + workers coefficient = 0 at each represented endpoint & 14.6508 & 1 & 0.0001 & True \\
+car & 45 & in\_commute & threshold\_common & 800 & Conley spatial HAC (10 km Bartlett kernel) & jobs coefficient + workers coefficient = 0 at each represented endpoint & 5.7209 & 1 & 0.0168 & True \\
+car & 60 & pairwise & threshold\_common & 640000 & two-way origin/destination clustered & jobs coefficient + workers coefficient = 0 at each represented endpoint & 78.4939 & 2 & 0.0000 & True \\
+car & 60 & out\_commute & threshold\_common & 800 & Conley spatial HAC (10 km Bartlett kernel) & jobs coefficient + workers coefficient = 0 at each represented endpoint & 5.3157 & 1 & 0.0211 & True \\
+car & 60 & in\_commute & threshold\_common & 800 & Conley spatial HAC (10 km Bartlett kernel) & jobs coefficient + workers coefficient = 0 at each represented endpoint & 0.7880 & 1 & 0.3747 & False \\
+pt & 20 & pairwise & threshold\_common & 592900 & two-way origin/destination clustered & jobs coefficient + workers coefficient = 0 at each represented endpoint & 1530.7949 & 2 & 0.0000 & True \\
+pt & 20 & pairwise & all\_threshold\_intersection & 592900 & two-way origin/destination clustered & jobs coefficient + workers coefficient = 0 at each represented endpoint & 1530.7949 & 2 & 0.0000 & True \\
+pt & 20 & out\_commute & threshold\_common & 770 & Conley spatial HAC (10 km Bartlett kernel) & jobs coefficient + workers coefficient = 0 at each represented endpoint & 456.5500 & 1 & 0.0000 & True \\
+pt & 20 & out\_commute & all\_threshold\_intersection & 770 & Conley spatial HAC (10 km Bartlett kernel) & jobs coefficient + workers coefficient = 0 at each represented endpoint & 456.5500 & 1 & 0.0000 & True \\
+pt & 20 & in\_commute & threshold\_common & 770 & Conley spatial HAC (10 km Bartlett kernel) & jobs coefficient + workers coefficient = 0 at each represented endpoint & 529.5749 & 1 & 0.0000 & True \\
+pt & 20 & in\_commute & all\_threshold\_intersection & 770 & Conley spatial HAC (10 km Bartlett kernel) & jobs coefficient + workers coefficient = 0 at each represented endpoint & 529.5749 & 1 & 0.0000 & True \\
+pt & 30 & pairwise & threshold\_common & 630436 & two-way origin/destination clustered & jobs coefficient + workers coefficient = 0 at each represented endpoint & 2255.7088 & 2 & 0.0000 & True \\
+pt & 30 & pairwise & all\_threshold\_intersection & 592900 & two-way origin/destination clustered & jobs coefficient + workers coefficient = 0 at each represented endpoint & 2260.8072 & 2 & 0.0000 & True \\
+pt & 30 & out\_commute & threshold\_common & 794 & Conley spatial HAC (10 km Bartlett kernel) & jobs coefficient + workers coefficient = 0 at each represented endpoint & 155.3837 & 1 & 0.0000 & True \\
+pt & 30 & out\_commute & all\_threshold\_intersection & 770 & Conley spatial HAC (10 km Bartlett kernel) & jobs coefficient + workers coefficient = 0 at each represented endpoint & 161.2217 & 1 & 0.0000 & True \\
+pt & 30 & in\_commute & threshold\_common & 794 & Conley spatial HAC (10 km Bartlett kernel) & jobs coefficient + workers coefficient = 0 at each represented endpoint & 160.2522 & 1 & 0.0000 & True \\
+pt & 30 & in\_commute & all\_threshold\_intersection & 770 & Conley spatial HAC (10 km Bartlett kernel) & jobs coefficient + workers coefficient = 0 at each represented endpoint & 146.1433 & 1 & 0.0000 & True \\
+pt & 45 & pairwise & threshold\_common & 636804 & two-way origin/destination clustered & jobs coefficient + workers coefficient = 0 at each represented endpoint & 595.7105 & 2 & 0.0000 & True \\
+pt & 45 & pairwise & all\_threshold\_intersection & 592900 & two-way origin/destination clustered & jobs coefficient + workers coefficient = 0 at each represented endpoint & 388.6686 & 2 & 0.0000 & True \\
+pt & 45 & out\_commute & threshold\_common & 798 & Conley spatial HAC (10 km Bartlett kernel) & jobs coefficient + workers coefficient = 0 at each represented endpoint & 29.3755 & 1 & 0.0000 & True \\
+pt & 45 & out\_commute & all\_threshold\_intersection & 770 & Conley spatial HAC (10 km Bartlett kernel) & jobs coefficient + workers coefficient = 0 at each represented endpoint & 31.8666 & 1 & 0.0000 & True \\
+pt & 45 & in\_commute & threshold\_common & 798 & Conley spatial HAC (10 km Bartlett kernel) & jobs coefficient + workers coefficient = 0 at each represented endpoint & 48.5592 & 1 & 0.0000 & True \\
+pt & 45 & in\_commute & all\_threshold\_intersection & 770 & Conley spatial HAC (10 km Bartlett kernel) & jobs coefficient + workers coefficient = 0 at each represented endpoint & 38.6945 & 1 & 0.0000 & True \\
+pt & 60 & pairwise & threshold\_common & 640000 & two-way origin/destination clustered & jobs coefficient + workers coefficient = 0 at each represented endpoint & 988.5170 & 2 & 0.0000 & True \\
+pt & 60 & pairwise & all\_threshold\_intersection & 592900 & two-way origin/destination clustered & jobs coefficient + workers coefficient = 0 at each represented endpoint & 1143.9175 & 2 & 0.0000 & True \\
+pt & 60 & out\_commute & threshold\_common & 800 & Conley spatial HAC (10 km Bartlett kernel) & jobs coefficient + workers coefficient = 0 at each represented endpoint & 25.2619 & 1 & 0.0000 & True \\
+pt & 60 & out\_commute & all\_threshold\_intersection & 770 & Conley spatial HAC (10 km Bartlett kernel) & jobs coefficient + workers coefficient = 0 at each represented endpoint & 28.2860 & 1 & 0.0000 & True \\
+pt & 60 & in\_commute & threshold\_common & 800 & Conley spatial HAC (10 km Bartlett kernel) & jobs coefficient + workers coefficient = 0 at each represented endpoint & 25.8870 & 1 & 0.0000 & True \\
+pt & 60 & in\_commute & all\_threshold\_intersection & 770 & Conley spatial HAC (10 km Bartlett kernel) & jobs coefficient + workers coefficient = 0 at each represented endpoint & 15.5022 & 1 & 0.0001 & True \\
+\bottomrule
+\end{tabular}
+\end{table}

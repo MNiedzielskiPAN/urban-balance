@@ -1,0 +1,19 @@
+\begin{table}[htbp]
+\centering
+\scriptsize
+\caption{Spatial-dependence and collinearity diagnostics at 30 minutes}
+\label{tab:diagnostics}
+\begin{tabular}{llllll}
+\toprule
+Mode & Outcome & Moran's $I$ & Permutation $p$ & $\mathrm{corr}(A_E,A_W)$ & VIF \\
+\midrule
+Car & Out-commute & 0.691 & 0.005 & 0.990 & 49.68 \\
+Car & In-commute & 0.611 & 0.005 & 0.989 & 45.50 \\
+Public transport & Out-commute & 0.546 & 0.005 & 0.952 & 10.60 \\
+Public transport & In-commute & 0.543 & 0.005 & 0.956 & 11.66 \\
+\bottomrule
+\end{tabular}
+\par\vspace{2pt}
+\begin{minipage}{0.96\linewidth}\footnotesize\textit{Notes:} Moran's $I$ is calculated for separate-accessibility residuals on the eight-nearest-neighbour graph using 199 fixed-seed permutations. VIF is reported for jobs accessibility; the two-variable specification gives the same VIF for workers accessibility.
+\end{minipage}
+\end{table}

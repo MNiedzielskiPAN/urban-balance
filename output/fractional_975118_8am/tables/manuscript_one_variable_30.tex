@@ -1,0 +1,27 @@
+\begin{table}[htbp]
+\centering
+\scriptsize
+\caption{One-variable accessibility regressions at 30 minutes}
+\label{tab:onevariable}
+\begin{tabular}{lllllll}
+\toprule
+Mode & Outcome & Variable & $N$ & Origin coefficient & Destination coefficient & Adjusted $R^2$ \\
+\midrule
+Car & Pairwise network time & Jobs & 801,025 & -0.156 (0.003) & -0.152 (0.003) & 0.564 \\
+Car & Pairwise network time & Workers & 801,025 & -0.189 (0.004) & -0.184 (0.004) & 0.571 \\
+Car & Out-commute & Jobs & 805 & -0.084 (0.018) & -- & 0.402 \\
+Car & Out-commute & Workers & 805 & -0.101 (0.022) & -- & 0.405 \\
+Car & In-commute & Jobs & 892 & -- & 0.007 (0.018) & 0.004 \\
+Car & In-commute & Workers & 892 & -- & 0.005 (0.022) & 0.001 \\
+Public transport & Pairwise network time & Jobs & 790,321 & -0.144 (0.003) & -0.145 (0.003) & 0.584 \\
+Public transport & Pairwise network time & Workers & 790,321 & -0.158 (0.005) & -0.163 (0.005) & 0.540 \\
+Public transport & Out-commute & Jobs & 799 & -0.134 (0.010) & -- & 0.864 \\
+Public transport & Out-commute & Workers & 799 & -0.145 (0.014) & -- & 0.767 \\
+Public transport & In-commute & Jobs & 886 & -- & -0.077 (0.007) & 0.610 \\
+Public transport & In-commute & Workers & 886 & -- & -0.094 (0.008) & 0.675 \\
+\bottomrule
+\end{tabular}
+\par\vspace{2pt}
+\begin{minipage}{0.96\linewidth}\footnotesize\textit{Notes:} Standard errors are in parentheses; pairwise models use two-way origin/destination clustering and zonal models use 10-km Conley spatial-HAC covariance. Adjusted $R^2$ is calculated for OLS models in natural-log units. Each one-variable regression uses the observations valid for that variable, so its $N$ can exceed the five-model common sample in Table~\ref{tab:r2summary}; for example, public transport in-commute has $N=886$ here and $N=794$ there. Fits are therefore not directly comparable across those tables.
+\end{minipage}
+\end{table}

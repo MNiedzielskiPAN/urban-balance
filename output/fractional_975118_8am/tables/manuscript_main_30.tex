@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+\centering
+\scriptsize
+\caption{Common-sample model comparison at 8am and 30 minutes}
+\label{tab:r2summary}
+\begin{tabular}{llllllll}
+\toprule
+Mode & Outcome & $N$ & MRC & JWR & Separate access & Access ratio & 2SFCA \\
+\midrule
+Car & Pairwise network time & 640,000 & 0.106 & 0.030 & 0.565 & 0.335 & 0.274 \\
+Car & Out-commute & 800 & 0.227 & 0.049 & 0.402 & 0.239 & 0.542 \\
+Car & In-commute & 800 & -0.000 & 0.011 & 0.040 & 0.034 & 0.188 \\
+Public transport & Pairwise network time & 630,436 & 0.163 & 0.015 & 0.577 & 0.170 & 0.123 \\
+Public transport & Out-commute & 794 & 0.419 & 0.027 & 0.864 & 0.301 & 0.524 \\
+Public transport & In-commute & 794 & 0.064 & 0.002 & 0.658 & 0.055 & 0.114 \\
+\bottomrule
+\end{tabular}
+\par\vspace{2pt}
+\begin{minipage}{0.96\linewidth}\footnotesize\textit{Notes:} Cells report adjusted $R^2$ from OLS models in natural-log units. Within each mode--outcome row, all five models use the same valid observations.
+\end{minipage}
+\end{table}

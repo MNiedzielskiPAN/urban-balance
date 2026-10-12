@@ -1,0 +1,47 @@
+\begin{landscape}
+\begin{table}[htbp]
+\centering
+\scriptsize
+\caption{Spatially blocked prediction for all five models at 30 minutes}
+\label{tab:cvall30}
+\begin{tabular}{llllllll}
+\toprule
+Mode & Outcome & Model & Test $N$ & RMSE & MAE & $R^2_{train}$ & $R^2_{test}$ \\
+\midrule
+Car & Pairwise network time & MRC & 148,084 & 0.390 & 0.337 & 0.119 & -2.088 \\
+Car & Pairwise network time & JWR & 148,084 & 0.408 & 0.353 & 0.036 & -2.376 \\
+Car & Pairwise network time & Separate access & 148,084 & 0.307 & 0.244 & 0.454 & -0.914 \\
+Car & Pairwise network time & Access ratio & 148,084 & 0.357 & 0.295 & 0.262 & -1.587 \\
+Car & Pairwise network time & 2SFCA & 148,084 & 0.350 & 0.300 & 0.290 & -1.486 \\
+Car & Out-commute & MRC & 800 & 0.143 & 0.116 & 0.212 & -1.071 \\
+Car & Out-commute & JWR & 800 & 0.157 & 0.129 & 0.049 & -1.498 \\
+Car & Out-commute & Separate access & 800 & 0.132 & 0.109 & 0.330 & -0.760 \\
+Car & Out-commute & Access ratio & 800 & 0.140 & 0.118 & 0.237 & -1.005 \\
+Car & Out-commute & 2SFCA & 800 & 0.108 & 0.084 & 0.550 & -0.182 \\
+Car & In-commute & MRC & 800 & 0.101 & 0.073 & -0.020 & -0.130 \\
+Car & In-commute & JWR & 800 & 0.100 & 0.073 & -0.010 & -0.120 \\
+Car & In-commute & Separate access & 800 & 0.103 & 0.077 & -0.076 & -0.192 \\
+Car & In-commute & Access ratio & 800 & 0.100 & 0.073 & -0.009 & -0.119 \\
+Car & In-commute & 2SFCA & 800 & 0.092 & 0.059 & 0.150 & 0.058 \\
+Public transport & Pairwise network time & MRC & 146,598 & 0.649 & 0.508 & 0.191 & -1.149 \\
+Public transport & Pairwise network time & JWR & 146,598 & 0.718 & 0.587 & 0.012 & -1.626 \\
+Public transport & Pairwise network time & Separate access & 146,598 & 0.478 & 0.341 & 0.562 & -0.165 \\
+Public transport & Pairwise network time & Access ratio & 146,598 & 0.671 & 0.546 & 0.137 & -1.294 \\
+Public transport & Pairwise network time & 2SFCA & 146,598 & 0.675 & 0.552 & 0.125 & -1.324 \\
+Public transport & Out-commute & MRC & 794 & 0.224 & 0.186 & 0.404 & -0.660 \\
+Public transport & Out-commute & JWR & 794 & 0.289 & 0.237 & 0.011 & -1.756 \\
+Public transport & Out-commute & Separate access & 794 & 0.107 & 0.079 & 0.865 & 0.624 \\
+Public transport & Out-commute & Access ratio & 794 & 0.249 & 0.194 & 0.262 & -1.056 \\
+Public transport & Out-commute & 2SFCA & 794 & 0.208 & 0.168 & 0.488 & -0.426 \\
+Public transport & In-commute & MRC & 794 & 0.183 & 0.140 & -0.001 & -0.642 \\
+Public transport & In-commute & JWR & 794 & 0.186 & 0.151 & -0.040 & -0.706 \\
+Public transport & In-commute & Separate access & 794 & 0.101 & 0.073 & 0.694 & 0.499 \\
+Public transport & In-commute & Access ratio & 794 & 0.184 & 0.151 & -0.018 & -0.669 \\
+Public transport & In-commute & 2SFCA & 794 & 0.179 & 0.144 & 0.040 & -0.574 \\
+\bottomrule
+\end{tabular}
+\par\vspace{2pt}
+\begin{minipage}{0.96\linewidth}\footnotesize\textit{Notes:} RMSE and MAE are pooled across held-out observations and expressed in natural-log outcome units. $R^2_{train}$ uses each fold's training-outcome mean as the reference; $R^2_{test}$ uses the held-out-outcome mean. Pairwise test observations have both endpoints in the held-out block.
+\end{minipage}
+\end{table}
+\end{landscape}

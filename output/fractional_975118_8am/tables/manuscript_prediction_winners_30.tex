@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+\centering
+\scriptsize
+\caption{Best spatially blocked predictive model at 8am and 30 minutes}
+\label{tab:prediction}
+\begin{tabular}{llllllll}
+\toprule
+Mode & Outcome & Model & Test $N$ & RMSE & MAE & $R^2_{train}$ & $R^2_{test}$ \\
+\midrule
+Car & In-commute & 2SFCA & 800 & 0.092 & 0.059 & 0.150 & 0.058 \\
+Car & Out-commute & 2SFCA & 800 & 0.108 & 0.084 & 0.550 & -0.182 \\
+Car & Pairwise network time & Separate access & 148,084 & 0.307 & 0.244 & 0.454 & -0.914 \\
+Public transport & In-commute & Separate access & 794 & 0.101 & 0.073 & 0.694 & 0.499 \\
+Public transport & Out-commute & Separate access & 794 & 0.107 & 0.079 & 0.865 & 0.624 \\
+Public transport & Pairwise network time & Separate access & 146,598 & 0.478 & 0.341 & 0.562 & -0.165 \\
+\bottomrule
+\end{tabular}
+\par\vspace{2pt}
+\begin{minipage}{0.96\linewidth}\footnotesize\textit{Notes:} The selected model has the lowest pooled held-out RMSE. RMSE and MAE are in natural-log outcome units. $R^2_{train}$ benchmarks each fold against its training-outcome mean; $R^2_{test}$ uses its held-out-outcome mean. Sums of squares are pooled across folds.
+\end{minipage}
+\end{table}

@@ -1,0 +1,41 @@
+\begin{landscape}
+\begin{table}[htbp]
+\centering
+\scriptsize
+\caption{8am accessibility-threshold robustness: common-sample adjusted $R^2$}
+\label{tab:thresholds}
+\begin{tabular}{lllllllll}
+\toprule
+Mode & Outcome & Threshold & $N$ & MRC & JWR & Separate access & Access ratio & 2SFCA \\
+\midrule
+Car & Pairwise network time & 20 min & 640,000 & 0.106 & 0.030 & 0.469 & 0.185 & 0.126 \\
+Car & Out-commute & 20 min & 800 & 0.227 & 0.049 & 0.689 & 0.337 & 0.406 \\
+Car & In-commute & 20 min & 800 & -0.000 & 0.011 & 0.097 & -0.000 & 0.055 \\
+Car & Pairwise network time & 30 min & 640,000 & 0.106 & 0.030 & 0.565 & 0.335 & 0.274 \\
+Car & Out-commute & 30 min & 800 & 0.227 & 0.049 & 0.402 & 0.239 & 0.542 \\
+Car & In-commute & 30 min & 800 & -0.000 & 0.011 & 0.040 & 0.034 & 0.188 \\
+Car & Pairwise network time & 45 min & 640,000 & 0.106 & 0.030 & 0.468 & 0.012 & 0.368 \\
+Car & Out-commute & 45 min & 800 & 0.227 & 0.049 & 0.307 & 0.062 & 0.103 \\
+Car & In-commute & 45 min & 800 & -0.000 & 0.011 & 0.174 & 0.126 & 0.085 \\
+Car & Pairwise network time & 60 min & 640,000 & 0.106 & 0.030 & 0.339 & 0.310 & 0.348 \\
+Car & Out-commute & 60 min & 800 & 0.227 & 0.049 & 0.061 & 0.043 & 0.069 \\
+Car & In-commute & 60 min & 800 & -0.000 & 0.011 & 0.089 & 0.073 & 0.079 \\
+Public transport & Pairwise network time & 20 min & 592,900 & 0.132 & 0.012 & 0.476 & 0.043 & 0.032 \\
+Public transport & Out-commute & 20 min & 770 & 0.384 & 0.022 & 0.877 & 0.084 & 0.120 \\
+Public transport & In-commute & 20 min & 770 & 0.044 & 0.004 & 0.719 & -0.001 & 0.042 \\
+Public transport & Pairwise network time & 30 min & 592,900 & 0.132 & 0.012 & 0.547 & 0.165 & 0.130 \\
+Public transport & Out-commute & 30 min & 770 & 0.384 & 0.022 & 0.866 & 0.286 & 0.538 \\
+Public transport & In-commute & 30 min & 770 & 0.044 & 0.004 & 0.655 & 0.048 & 0.159 \\
+Public transport & Pairwise network time & 45 min & 592,900 & 0.132 & 0.012 & 0.537 & 0.173 & 0.241 \\
+Public transport & Out-commute & 45 min & 770 & 0.384 & 0.022 & 0.662 & 0.198 & 0.729 \\
+Public transport & In-commute & 45 min & 770 & 0.044 & 0.004 & 0.456 & 0.040 & 0.522 \\
+Public transport & Pairwise network time & 60 min & 592,900 & 0.132 & 0.012 & 0.503 & 0.022 & 0.373 \\
+Public transport & Out-commute & 60 min & 770 & 0.384 & 0.022 & 0.539 & 0.000 & 0.642 \\
+Public transport & In-commute & 60 min & 770 & 0.044 & 0.004 & 0.360 & 0.015 & 0.540 \\
+\bottomrule
+\end{tabular}
+\par\vspace{2pt}
+\begin{minipage}{0.96\linewidth}\footnotesize\textit{Notes:} Cells report adjusted $R^2$ from OLS models in natural-log units. Each row uses a five-model common sample. Public transport uses the same all-threshold intersection at every cutoff; its accessibility measures nevertheless retain the full 895-zone opportunity universe.
+\end{minipage}
+\end{table}
+\end{landscape}

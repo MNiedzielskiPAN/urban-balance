@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+\centering
+\scriptsize
+\caption{Wald tests of the accessibility-ratio restriction at 30 minutes}
+\label{tab:ratiorestriction}
+\begin{tabular}{llllll}
+\toprule
+Mode & Outcome & $N$ & $\chi^2$ & df & $p$ \\
+\midrule
+Car & Pairwise network time & 640,000 & 1058.19 & 2 & <0.001 \\
+Car & Out-commute & 800 & 8.29 & 1 & 0.004 \\
+Car & In-commute & 800 & 0.44 & 1 & 0.509 \\
+Public transport & Pairwise network time & 630,436 & 2255.71 & 2 & <0.001 \\
+Public transport & Out-commute & 794 & 155.38 & 1 & <0.001 \\
+Public transport & In-commute & 794 & 160.25 & 1 & <0.001 \\
+\bottomrule
+\end{tabular}
+\par\vspace{2pt}
+\begin{minipage}{0.96\linewidth}\footnotesize\textit{Notes:} Robust Wald tests are based on the separate-accessibility model estimated on the five-model common sample. Pairwise covariance is clustered two ways by origin and destination; zonal covariance is Conley spatial-HAC.
+\end{minipage}
+\end{table}
