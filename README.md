@@ -1,10 +1,9 @@
 # Jobs--housing balance measure comparison in Warsaw
 
-This repository contains the complete, current replication materials for the
-Warsaw jobs--housing balance measure-comparison paper. It includes the current
-general manuscript and a separately framed submission version for
-*Environment and Planning B: Urban Analytics and City Science*. It
-intentionally excludes superseded manuscript and analysis versions.
+This repository contains the complete, current replication materials for a research
+article on comparing five jobs--housing balance indicators. Specifically, it is a
+reproducible framework for identifying what alternative indicators retain and when 
+their empirical rankings are stable.
 
 ## Contents
 
